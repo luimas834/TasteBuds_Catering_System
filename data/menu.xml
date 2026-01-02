@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<menu>
+  <menuItem>
+    <itemId>M001</itemId>
+    <name>Chicken Biryani</name>
+    <category>Main Course</category>
+    <price>350</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M002</itemId>
+    <name>Mutton Biryani</name>
+    <category>Main Course</category>
+    <price>450</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M003</itemId>
+    <name>Vegetable Biryani</name>
+    <category>Main Course</category>
+    <price>250</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M004</itemId>
+    <name>Butter Chicken</name>
+    <category>Main Course</category>
+    <price>380</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M005</itemId>
+    <name>Naan</name>
+    <category>Bread</category>
+    <price>30</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M006</itemId>
+    <name>Paratha</name>
+    <category>Bread</category>
+    <price>25</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M007</itemId>
+    <name>Mango Lassi</name>
+    <category>Beverage</category>
+    <price>80</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M008</itemId>
+    <name>Soft Drink</name>
+    <category>Beverage</category>
+    <price>40</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M009</itemId>
+    <name>Gulab Jamun</name>
+    <category>Dessert</category>
+    <price>60</price>
+    <available>true</available>
+  </menuItem>
+  <menuItem>
+    <itemId>M010</itemId>
+    <name>Kheer</name>
+    <category>Dessert</category>
+    <price>70</price>
+    <available>true</available>
+  </menuItem>
+</menu>

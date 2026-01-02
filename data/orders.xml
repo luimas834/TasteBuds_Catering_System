@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<orders>
+  <order>
+    <orderId>ORD-1767386134110</orderId>
+    <queueNumber>1</queueNumber>
+    <customerId>4789db96</customerId>
+    <customerName>bossman</customerName>
+    <customerPhone>0</customerPhone>
+    <customerEmail>boss@gmail.com</customerEmail>
+    <customerRegistered>true</customerRegistered>
+    <status>IN_QUEUE</status>
+    <priority>NORMAL</priority>
+    <totalAmount>200</totalAmount>
+    <discount>0</discount>
+    <finalAmount>200</finalAmount>
+    <estimatedMinutes>0</estimatedMinutes>
+    <rating>0</rating>
+    <feedback/>
+    <items>
+      <item>
+        <itemId>M008</itemId>
+        <itemName>Soft Drink</itemName>
+        <quantity>5</quantity>
+        <price>40</price>
+      </item>
+    </items>
+  </order>
+</orders>

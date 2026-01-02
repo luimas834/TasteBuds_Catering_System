@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drivers>
+  <driver>
+    <driverId>a1835c05</driverId>
+    <name>Rafiq</name>
+    <phone>01787654321</phone>
+    <licenseNumber>DL-2024-002</licenseNumber>
+    <licenseIssueDate>2024-06-01</licenseIssueDate>
+    <licenseExpiryDate>2029-06-01</licenseExpiryDate>
+    <licenseType>Commercial</licenseType>
+    <available>true</available>
+  </driver>
+  <driver>
+    <driverId>303f9f2b</driverId>
+    <name>Salam</name>
+    <phone>01898765432</phone>
+    <licenseNumber>DL-2024-001</licenseNumber>
+    <licenseIssueDate>2024-01-01</licenseIssueDate>
+    <licenseExpiryDate>2029-01-01</licenseExpiryDate>
+    <licenseType>Commercial</licenseType>
+    <available>true</available>
+  </driver>
+</drivers>
