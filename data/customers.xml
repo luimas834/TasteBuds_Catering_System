@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <customers>
   <customer>
-    <customerId>4789db96</customerId>
-    <name>bossman</name>
+    <customerId>c9d3a9a5</customerId>
+    <name>messi</name>
     <phone>0</phone>
-    <email>boss@gmail.com</email>
+    <email>messi@gmail.com</email>
     <registered>true</registered>
     <monthlyOrderCount>1</monthlyOrderCount>
     <totalOrderCount>1</totalOrderCount>

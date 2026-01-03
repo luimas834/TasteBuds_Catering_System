@@ -4,7 +4,7 @@
     <itemId>M001</itemId>
     <name>Chicken Biryani</name>
     <category>Main Course</category>
-    <price>350</price>
+    <price>300</price>
     <available>true</available>
   </menuItem>
   <menuItem>
