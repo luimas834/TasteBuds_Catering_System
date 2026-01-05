@@ -8,10 +8,6 @@ import org.junit.jupiter.api. Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Integration tests for FeedbackService.
- * Tests the "Customer Feedback" scenario.
- */
 public class FeedbackServiceTest {
 
     private FeedbackService feedbackService;

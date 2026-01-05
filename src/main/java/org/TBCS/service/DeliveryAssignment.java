@@ -2,10 +2,7 @@ package org.TBCS.service;
 
 import org. TBCS.model.Delivery;
 
-/**
- * Value object for displaying delivery assignment details.
- * Follows SRP - only responsible for formatting delivery assignment info.
- */
+
 public class DeliveryAssignment {
     private final Delivery delivery;
     private final boolean isPriority;

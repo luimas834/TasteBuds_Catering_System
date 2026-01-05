@@ -5,10 +5,6 @@ import org.TBCS. repository.OrderRepository;
 
 import java.util.List;
 
-/**
- * Service class responsible for handling customer feedback operations.
- * Follows SRP - only handles feedback-related business logic.
- */
 public class FeedbackService {
     private final OrderRepository orderRepository;
 

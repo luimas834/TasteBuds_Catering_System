@@ -12,10 +12,6 @@ import java.util.List;
 
 import static org.junit. jupiter.api.Assertions.*;
 
-/**
- * Integration tests for KitchenService.
- * Tests the "Kitchen Preparation (Head Chef)" scenario.
- */
 public class KitchenServiceTest {
 
     private KitchenService kitchenService;

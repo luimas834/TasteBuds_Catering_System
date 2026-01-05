@@ -8,11 +8,6 @@ import org.junit.jupiter.api. DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
-/**
- * Unit tests for QueueManager.
- * Tests order queue management functionality.
- */
 public class QueueManagerTest {
 
     private QueueManager queueManager;

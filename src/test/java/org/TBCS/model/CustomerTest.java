@@ -6,10 +6,7 @@ import org.junit.jupiter. api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit tests for Customer model class.
- * Tests SRP:  Customer class only manages customer data.
- */
+
 public class CustomerTest {
 
     private Customer registeredCustomer;

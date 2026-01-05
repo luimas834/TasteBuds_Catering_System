@@ -7,9 +7,6 @@ import org.w3c.dom.*;
 import java.math.BigDecimal;
 import java.util.*;
 
-/**
- * Repository for managing Order and Delivery entities with XML persistence.
- */
 public class OrderRepository {
     private static final String ORDERS_FILENAME = "orders.xml";
 

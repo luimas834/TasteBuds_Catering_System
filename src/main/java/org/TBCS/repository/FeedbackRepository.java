@@ -5,11 +5,6 @@ import org.TBCS.model. Feedback;
 import java.util.*;
 import java.util.stream. Collectors;
 
-/**
- * Repository for managing Feedback entities.
- * Note: Currently feedback is stored in Order objects directly.
- * This repository is for potential future use with separate Feedback entities.
- */
 public class FeedbackRepository {
     private final Map<String, Feedback> feedbacks = new HashMap<>();
 

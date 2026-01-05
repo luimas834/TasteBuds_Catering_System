@@ -8,10 +8,6 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter. api.Assertions.*;
 
-/**
- * Unit tests for Delivery model class.
- * Tests delivery assignment, checkout, and delivery completion.
- */
 public class DeliveryTest {
 
     private Customer customer;

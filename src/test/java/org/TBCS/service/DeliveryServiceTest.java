@@ -8,10 +8,6 @@ import java.util. List;
 
 import static org.junit.jupiter. api.Assertions.*;
 
-/**
- * Integration tests for DeliveryService.
- * Tests the "Delivery Assignment" and "Driver Checkout" scenarios.
- */
 public class DeliveryServiceTest {
 
     private DeliveryService deliveryService;

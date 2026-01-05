@@ -6,10 +6,6 @@ import org.TBCS.model.Order;
 import java.util.List;
 import java.util.stream.Collectors;
 
-/**
- * Value object for displaying kitchen preparation details.
- * Follows SRP - only responsible for formatting preparation info.
- */
 public class OrderPreparationDetails {
     private final Order order;
     private final List<Chef> assignedChefs;

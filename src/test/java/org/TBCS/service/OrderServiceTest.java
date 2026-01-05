@@ -11,10 +11,6 @@ import java.math. BigDecimal;
 
 import static org.junit.jupiter.api. Assertions.*;
 
-/**
- * Integration tests for OrderService.
- * Tests the "Placing an Order" scenario.
- */
 public class OrderServiceTest {
 
     private OrderService orderService;

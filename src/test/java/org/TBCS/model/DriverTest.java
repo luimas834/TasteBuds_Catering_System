@@ -8,10 +8,6 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter. api.Assertions.*;
 
-/**
- * Unit tests for Driver model class.
- * Tests driver creation and license validation.
- */
 public class DriverTest {
 
     private Driver driver;

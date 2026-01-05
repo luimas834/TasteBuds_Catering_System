@@ -4,7 +4,16 @@ import org.TBCS.repository.*;
 import org.TBCS. service.*;
 import org.TBCS. util.ConsoleHelper;
 
+
+
+
 public class MainMenu {
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+
     private final CustomerRepository customerRepository;
     private final MenuRepository menuRepository;
     private final ChefRepository chefRepository;
@@ -27,8 +36,7 @@ public class MainMenu {
         this.chefRepository = new ChefRepository();
         this.driverRepository = new DriverRepository();
         this.vehicleRepository = new VehicleRepository();
-        this.orderRepository = new OrderRepository(); // Pass customerRepository
-
+        this.orderRepository = new OrderRepository(); 
         // Initialize services
         this.orderService = new OrderService(orderRepository, customerRepository);
         this.kitchenService = new KitchenService(chefRepository);
@@ -44,8 +52,10 @@ public class MainMenu {
     }
 
     public void run() {
+        System.out.println(ANSI_RED);
         ConsoleHelper.printHeader("TASTEBUDS CATERING SYSTEM (TBCS)");
         System.out.println("          Welcome to TasteBuds Restaurant, Dhaka!");
+        System.out.println(ANSI_RESET);
 
         while (true) {
             printMainMenu();
@@ -63,12 +73,14 @@ public class MainMenu {
     }
 
     private void printMainMenu() {
+        System.out.println(ANSI_YELLOW);
         ConsoleHelper.printSubHeader("MAIN MENU");
         System.out.println("  Currently Serving Order:  #" + orderService.getCurrentServingNumber());
         ConsoleHelper.printDivider();
         System.out.println("  1. Customer Portal");
         System.out.println("  2. Admin/Staff Login");
         System.out.println("  0. Exit");
+        System.out.println(ANSI_RESET);
         ConsoleHelper.printDivider();
     }
 

@@ -7,11 +7,6 @@ import org.junit.jupiter.api.Test;
 import java.math.BigDecimal;
 
 import static org.junit.jupiter.api. Assertions.*;
-
-/**
- * Unit tests for Order model class.
- * Tests order creation, item management, and discount application.
- */
 public class OrderTest {
 
     private Customer customer;
